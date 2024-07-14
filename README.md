@@ -10,16 +10,18 @@
 
 ## 実行例
 - 決定性有限オートマトン
-    - `DFASample1.ipynb`
-    - `DFASample2.ipynb`    
-    - `DFASample3.ipynb`
+    - `DFAExamples.py`
 - 非決定性有限オートマトン
-    - `NFASample1.ipynb`
-    - `NFASample2.ipynb`    
-    - `NFASample3.ipynb`
+    - `NFAExamples.py`
 - 非決定性FAから決定性FAへの変換
-    - `NFS2DFASample1.ipynb`
+    - `NFS2DFAExamples.py`
 - 決定性有限オートマトンの最小化
-    - `MinimizingDFASample.ipynb`
+    - `MinimizingDFASample.py`
 - 決定性有限オートマトンを正規文法へ変換
     - `DFA2RG.ipynb`
+- FAが正規表現で表した文字列を受理する例
+    - `RegexAndFA.ipynb`
+
+## 正規表現
+pythonの正規表現モジュール`re`を使って、正規表現を扱う。
+- `regexExample.ipynb`
